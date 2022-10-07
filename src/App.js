@@ -1,7 +1,12 @@
 import Item from './components/Item'
-import { drawData } from './utils/dataParser'
-
 import './App.css'
+
+import { getTree, parseData } from './utils/dataParser'
+
+import data from './constants/data.json'
+
+const items = parseData(data)
+const drawData = getTree(items)
 
 function App() {
   return (

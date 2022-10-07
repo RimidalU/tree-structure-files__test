@@ -12,7 +12,9 @@ export default function Folder({ item }) {
         <span role="img" aria-label="folder">&#128194;</span>
         {item.name}
       </div>
-      {open && item.children && <Item drawData={item.children} />}
+      <ul>
+        {open && item.children && <Item drawData={item.children} />}
+      </ul>
     </>
   )
 }
