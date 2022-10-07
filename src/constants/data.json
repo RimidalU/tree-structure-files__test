@@ -1,9 +1,9 @@
 [
-  { "name": "root" },
-  { "name": "folder 1" },
-  { "name": "file 1 in folder 1" },
-  { "name": "folder 2" },
-  { "name": "folder 1 in folder 2" },
-  { "name": "file 1 folder 1 in folder 2" },
-  { "name": "file 2 folder 1 in folder 2" }
+  { "name": "root", "id": 1, "parent_id": null},
+  { "name": "folder 1", "id": 2, "parent_id": 1 },
+  { "name": "file 1 in folder 1", "id": 3, "parent_id": 2 },
+  { "name": "folder 2", "id": 4, "parent_id": 1 },
+  { "name": "folder 1 in folder 2", "id": 5, "parent_id": 4 },
+  { "name": "file 1 folder 1 in folder 2", "id": 6, "parent_id": 5 },
+  { "name": "file 2 folder 1 in folder 2", "id": 7, "parent_id": 5 }
 ]
